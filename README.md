@@ -1,7 +1,9 @@
 # EEG-Sleep-Stage-Classification
 This project was conducted to identify the EEG signal waves identification by using machine learning technologies.
 
-<img src="your-image-url-here.png" align="left" width="300">
+<p align="left">
+  <img src="images/banner.jpg" width="350" title="Iris Flower">
+</p>
 
 ## Introduction :bulb:
 In sleep the human brain goes through several stages such as 
