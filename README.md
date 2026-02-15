@@ -31,3 +31,14 @@ Since the database is very huge I used a few files of that to train the model. I
 - matplotlib
 - streamlit
 
+## EEG Pre-processing Pipeline :mag:
+EEG signal is a signal captured during sleep for long hours such as up to 8 hours. They often contains much noise since it captures the muscle moments of the head and eye moments also. When we create a model we want to remove the noise and select only the EEG signals. Since it is a 8 hours long file we are breaking it to small chunks such as epochs. 
+
+- Load raw EEG
+- Load annotations
+- Attach annotations
+- Select EEG channels
+- Bandpass filter (0.5–40 Hz)
+- Segment into 30-second epochs
+- Normalize epochs
+
